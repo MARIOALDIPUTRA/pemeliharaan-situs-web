@@ -1,0 +1,56 @@
+html {
+  font: 400 16px/1.5 Karla, sans-serif;
+}
+
+body {
+  background-color: #efefef;
+  background-image: url('img/shape.svg');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  margin: 1em 3vw;
+}
+
+.zooniverse-logo {
+  width: 148px;
+  height: 136px;
+}
+
+.title {
+  margin-top: 10%;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: #5c5c5c;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+.maintenance-msg {
+  font-size: 2.8em;
+  line-height: 1.16;
+  color: #5c5c5c;
+}
+
+.old-weather-whaling-text {
+  font-size: 0.9em;
+}
+
+.link-text {
+  color: #0c616f;
+  text-decoration: none;
+}
+
+a.link-text:hover {
+  color: #00979d;
+}
+
+a.link-text:focus {
+  color: #00979d;
+}
